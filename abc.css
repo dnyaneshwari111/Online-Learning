@@ -1,0 +1,56 @@
+/* Apply general styling to the container */
+.container-fluid.search-criteria {
+    /* Add your container styles here */
+  }
+  
+  /* Style the calendar component */
+  p-calendar {
+    /* Add your calendar styles here */
+  }
+  
+  /* Style the check-in and check-out information */
+  .criteria-checkin-out {
+    /* Add your styles for check-in/check-out here */
+  }
+  
+  /* Style the night count section */
+  .theme-color-light-bg {
+    /* Add your styles for the night count section here */
+  }
+  
+  /* Style the room information section */
+  .room-plus-minus {
+    /* Add your styles for the plus/minus buttons here */
+  }
+  
+  /* Style the promo code input and button */
+  .promo-code {
+    /* Add your styles for the promo code section here */
+  }
+  
+  /* Style the "CHECK AVAILABILITY" button */
+  .mat-raised-button {
+    /* Add your styles for the "CHECK AVAILABILITY" button here */
+  }
+  
+  /* Adjust padding and margin for various sections as needed */
+  .row {
+    margin: 10px;
+    /* Add other shared styles for rows here */
+  }
+  
+  .col-2 {
+    /* Add your styles for specific columns here */
+  }
+  
+  /* Add styles for various icons (e.g., fa-male, fa-child, fa-baby) */
+  .fa-male, .fa-child, .fa-baby {
+    /* Add your styles for icons here */
+  }
+  
+  /* Customize the dropdown select styles */
+  .ui-datepicker-month,
+  .ui-datepicker-year {
+    /* Add your styles for select inputs here */
+  }
+  

@@ -1,0 +1,113 @@
+body{
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .optimize-banner-p13n {
+      background-color: #009088;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 24px;
+      padding: 24px 0;
+      position: relative;
+      text-align: center;
+      z-index: 5000000
+  }
+
+  #block-stanfordonline-breadcrumbs {
+      margin-bottom: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      padding-top: 10px;
+  }
+  p{
+    font-size: large;
+    font-weight: 400;
+  }
+    
+  .breadcrumb{
+    background-color: #e2eeff;
+    padding:10px;
+    border-radius: 10px;
+  }
+  .region--main {
+      background: #f4f4f4;
+      font-size: 20px;
+      line-height: 1.5;
+      color: #2e2d29;
+      position: relative;
+  }
+  
+    .subject{
+      background-image: url(./Images/toos3.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-bottom: 500px;
+    }
+    .units{
+      background-color: #31d607;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-bottom: 500px;
+      align-items: center;
+      text-align: center;
+      border-radius: 30px;
+      
+    }
+  .page-title{
+    align-items: center;
+  }
+  h2{
+    transform: skew(-10deg, 0);
+  font-family: Arial, sans-serif;
+    text-align: center;
+    color: #ff4040;
+  }
+  
+  .container{
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  a:link{
+    color: brown;
+  }
+  a:visited{
+    color: #003937;
+  }
+  a:hover{
+    color: rgb(255, 11, 133);
+  }
+  a:active{
+    color: aqua;
+  }
+  .card-header{
+    color: #ff00ae;
+    font-weight: bold;
+    font-size: 21px;
+  }
+  
+  .card {
+        width: 300px;
+        /* height: 300px; */
+        background-color: #f0f0f0;
+        transform: rotate(-4deg); /* Specify the desired rotation angle */
+       
+  }
+  .col-sm{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 15px;
+  }
+  .row{
+        padding-bottom: 10px;
+  }    
+  
+  li{
+    text-align: left;
+    font-size: 20px;
+  }

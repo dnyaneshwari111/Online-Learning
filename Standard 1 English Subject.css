@@ -1,0 +1,98 @@
+body{
+  background-color: rgb(255, 255, 255);
+
+}
+
+.optimize-banner-p13n {
+    background-color: #009088;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 24px 0;
+    position: relative;
+    text-align: center;
+    z-index: 5000000
+}
+.main {
+  /* background-image: url(./Images/BACK\ Main.png); */
+
+  background-image: url(./Images/Screenshot_2023-05-10-12-52-38-63_c37d74246d9c81aa0bb824b57eaf7062.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#block-stanfordonline-breadcrumbs {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+.breadcrumb{
+  background-color: #e2eeff;
+  padding:10px;
+  border-radius: 10px;
+}
+.region--main {
+    background: #f4f4f4;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #2e2d29;
+    position: relative;
+}
+
+  .subject{
+    /* background-image: url(./Images/BACK\ Main.png); */
+
+    background-image: url(./Images/Background\ Standard.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 500px;
+  }
+.page-title{
+  align-items: center;
+}
+h2{
+  text-align: center;
+  color: #ff4040;
+}
+
+.container{
+  /* background-color: #007690; */
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+.btn{
+  padding: 20px;
+  color: #ff0000;
+  background-color: #bdacac;
+  align-items: center;
+}
+a:link{
+  color: brown;
+}
+a:visited{
+  color: #003937;
+}
+a:hover{
+  color: rgb(255, 11, 133);
+}
+a:active{
+  color: aqua;
+}
+.button-container {
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+li{
+  text-align: left;
+  font-size: 20px;
+}

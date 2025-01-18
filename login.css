@@ -1,0 +1,133 @@
+body{
+    background-color: rgb(255, 255, 255);  
+}  
+.optimize-banner-p13n {
+      background-color: #009088;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 24px;
+      padding: 24px 0;
+      position: relative;
+      text-align: center;
+      z-index: 5000000
+}
+#block-stanfordonline-breadcrumbs {
+      margin-bottom: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      padding-top: 10px;
+  }
+  
+    
+  .breadcrumb{
+    background-color: #e2eeff;
+    padding:10px;
+    border-radius: 10px;
+  }
+/* -------------------------------------------------- */
+
+
+  .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgba(255,255,255,.6);
+    background-image: url(./Images/log\ in\ background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form {
+    background-color: #ffffff;
+    width: 600px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.9),
+    -10px -10px 20px rgba(255,255,255,.6);
+    border-radius: 10px;
+    padding: 15px 30px;
+}
+.heading{
+    margin: 30px 0;
+}
+
+.heading h1{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.input-field .icon{
+    color: #aaa;
+}
+
+.input-field input{
+    border: none;
+    outline: none;
+    background: transparent;
+    margin: 0 5px;
+    color: #8d8c8c;
+    font-size: 18px;
+    padding: 15px 0;
+}
+
+.input-field input:focus{
+    color: #000;
+}
+
+.cta{
+    text-align: center;
+    margin: 40px 0;
+}
+
+.cta button{
+    padding: 8px 20px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,.1),
+    -10px -10px -20px rgba(255,255,255,0.6);
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(71, 66, 66);
+    border-radius: 20px;
+    background: transparent;
+    cursor: pointer;
+    transition: color .3s;
+
+}
+.cta button:hover{
+    color: #000;
+}
+.footer{
+    text-align: center;
+
+}
+.footer span,
+.footer span a{
+    font-size: 14px;
+    color: #0033ff;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+.footer span a:hover{
+    color: #d51111;
+}
+
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+  .wrapper button{
+    background-color: #8ca8cf;
+    size: 20px;
+    width: 90px;
+  }

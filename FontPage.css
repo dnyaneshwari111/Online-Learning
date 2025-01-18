@@ -1,0 +1,196 @@
+body{
+  background-color: rgb(255, 255, 255);
+
+}
+
+.optimize-banner-p13n {
+    background-color: #009088;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 24px 0;
+    position: relative;
+    text-align: center;
+    z-index: 5000000
+}
+
+.main {
+  background-image: url(./Images/bbbbbbbbbbbbbbbb.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+
+#block-stanfordonline-breadcrumbs {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+
+  
+.breadcrumb{
+  background-color: #e2eeff;
+  padding:10px;
+  border-radius: 10px;
+}
+.region--main {
+    background: #f4f4f4;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #2e2d29;
+    position: relative;
+}
+
+
+.page-title{
+    padding:10px;
+    
+}
+.choose{
+font-family: serif;
+background: rgba(255, 255, 255, 0.5);
+}
+
+.cards-container h1{
+    color: #000000;
+    
+
+}
+
+h3{
+  text-align: center;
+  font-weight: 700;
+  color: darkred;
+}
+
+
+h1{
+    background: rgba(30, 225, 255, 0.2);
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+h2{
+  text-align: center;
+    color: #e02121;
+    font-size: xx-large;
+    font-weight: bold;
+    
+}
+
+
+p {
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: larger;
+  }
+
+
+
+
+
+.standard{
+  padding: 30px;
+  padding-bottom: 25px;
+}
+  
+
+.button{
+  padding: 10px;
+  color: #e02121;
+}
+
+
+.button-dgrid a{
+  color: #ffffff;
+  font-weight: 700;
+}
+
+
+.cards-container{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+  .paragraph-inner{
+    padding: 30px;
+  }
+
+  .card{
+    width: 260px;
+    height: 350px;
+    border-radius: 10px;
+    position: relative;
+    display: grid;
+    overflow: hidden;    
+}
+
+  .col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    /* background-color: aquamarine; */
+  }
+  .row{
+    padding-bottom: 20px;
+  }
+.box{
+  padding: 20px;
+  
+}
+.lg {
+  background-color:#949494;
+
+}
+
+.term{
+  background-color: #ff8a8a;
+
+}
+.container{
+  background-color: rgb(255, 255, 255);
+}
+
+
+.bottom-share{
+  align-items:center;
+  
+  
+}
+.term{
+  background-color: rgb(255, 255, 255);
+
+}
+
+
+.icon {
+  /* background-color: #e2eeff; */
+  justify-content: center;
+  align-items: center;
+  color:rgb(33, 37, 83);
+  font-size: 50px; /* Increase or decrease the value as needed */
+}
+
+
+.bottomFB{
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.bottom2{
+  padding-top: 30px;
+}
+.term li{
+  text-align: left;
+  font-size: 20px;
+  
+  
+}

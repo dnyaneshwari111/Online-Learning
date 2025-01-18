@@ -1,0 +1,255 @@
+body{
+    background-color: rgb(255, 255, 255);
+  
+  }
+  
+  .optimize-banner-p13n {
+      background-color: #009088;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 24px;
+      padding: 24px 0;
+      position: relative;
+      text-align: center;
+      z-index: 5000000
+  }
+  .main {
+    /* background-image: url(./Images/BACK\ Main.png); */
+  
+    background-image: url(./Images/Screenshot_2023-05-10-12-52-38-63_c37d74246d9c81aa0bb824b57eaf7062.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #block-stanfordonline-breadcrumbs {
+      margin-bottom: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      padding-top: 10px;
+  }
+  .breadcrumb{
+    background-color: #e2eeff;
+    padding:10px;
+    border-radius: 10px;
+  }
+  .region--main {
+      background: #f4f4f4;
+      font-size: 20px;
+      line-height: 1.5;
+      color: #2e2d29;
+      position: relative;
+  }
+  
+    .subject{
+      /* background-image: url(./Images/BACK\ Main.png); */
+  
+      /* background-image: url(./Images/Background\ Standard.png); */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-bottom: 500px;
+    }
+  .page-title{
+    align-items: center;
+  }
+  h2{
+    text-align: center;
+    color: #ff4040;
+  }
+  
+  .container{
+    /* background-color: #007690; */
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  .btn{
+    padding: 20px;
+    color: #ff0000;
+    background-color: #bdacac;
+    align-items: center;
+  }
+  a:link{
+    color: brown;
+  }
+  a:visited{
+    color: #003937;
+  }
+  a:hover{
+    color: rgb(255, 11, 133);
+  }
+  a:active{
+    color: aqua;
+  }
+  .button-container {
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  li{
+    text-align: left;
+    font-size: 20px;
+  }
+
+
+p{
+    font-size: 20px;
+    color: #e2eeff
+}
+
+
+.wrapper p{
+    color: #2e2d29
+}
+
+
+
+
+
+
+
+  /* Importing fonts from Google */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* Reseting */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(45deg, #ce1e53, #8f00c7);
+    min-height: 100vh;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: 80px auto;
+    padding: 30px 45px;
+    box-shadow: 5px 25px 35px #3535356b;
+}
+
+.wrapper label {
+    display: block;
+    padding-bottom: 0.2rem;
+}
+
+.wrapper .form .row {
+    padding: 0.6rem 0;
+}
+
+.wrapper .form .row .form-control {
+    box-shadow: none;
+}
+
+.wrapper .form .option {
+    position: relative;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+
+.wrapper .form .option input {
+    opacity: 0;
+}
+
+.wrapper .form .checkmark {
+    position: absolute;
+    top: 1px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    border: 1px solid #bbb;
+    border-radius: 50%;
+}
+
+.wrapper .form .option input:checked~.checkmark:after {
+    display: block;
+}
+
+.wrapper .form .option:hover .checkmark {
+    background: #f3f3f3;
+}
+
+.wrapper .form .option .checkmark:after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    display: block;
+    background: linear-gradient(45deg, #ce1e53, #8f00c7);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 300ms ease-in-out 0s;
+}
+
+.wrapper .form .option input[type="radio"]:checked~.checkmark {
+    background: #fff;
+    transition: 300ms ease-in-out 0s;
+}
+
+.wrapper .form .option input[type="radio"]:checked~.checkmark:after {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+#sub {
+    display: block;
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    color: #333;
+}
+
+#sub:focus {
+    outline: none;
+}
+
+@media(max-width: 768.5px) {
+    .wrapper {
+        margin: 30px;
+    }
+
+    .wrapper .form .row {
+        padding: 0;
+    }
+}
+
+@media(max-width: 400px) {
+    .wrapper {
+        padding: 25px;
+        margin: 20px;
+    }
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+  .wrapper button{
+    background-color: #8ca8cf;
+    size: 20px;
+    width: 90px;
+  }
